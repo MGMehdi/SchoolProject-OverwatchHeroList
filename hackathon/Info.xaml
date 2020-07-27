@@ -1,0 +1,14 @@
+﻿<Window x:Class="hackathon.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hackathon"
+        mc:Ignorable="d"
+        Title="Info" Height="300" Width="300" Background="{x:Null}" Icon="Pictures/Info.png">
+    <Grid Background="Black">
+        <Image HorizontalAlignment="Left" Height="79" VerticalAlignment="Top" Width="86" Source="Pictures/Info.png"/>
+        <Label x:Name="LabelInfo" Content="Play Of The Game &#xD;&#xA;     (Developer)" HorizontalAlignment="Left" Height="69" Margin="108,10,0,0" VerticalAlignment="Top" Width="174" Foreground="White" FontSize="20" FontFamily="Times New Roman"/>
+        <Label x:Name="labelDeveloper" Content="François Carnière (as Sombra)&#xD;&#xA;&#xD;&#xA;Mehdi Grira (as Junkrat)&#xD;&#xA;&#xD;&#xA;Evan D'Amario (as Lúcio)&#xD;&#xA;&#xD;&#xA;Baptiste De Brakeleer (as Ana)&#xD;&#xA;&#xD;&#xA;Benjamin Pittonet (as Hanzo)" HorizontalAlignment="Left" Height="175" Margin="10,84,0,0" VerticalAlignment="Top" Width="272" Foreground="White" FontFamily="Times New Roman" FontSize="16"/>
+    </Grid>
+</Window>
